@@ -1,0 +1,15 @@
+.projects-cover {
+  @apply px-12;
+
+  &__text {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  &__img {
+    @apply fixed top-0 left-0 w-[20%] object-cover z-10 opacity-0 pointer-events-none;
+  }
+
+  &__button {
+    @apply mix-blend-difference;
+  }
+}

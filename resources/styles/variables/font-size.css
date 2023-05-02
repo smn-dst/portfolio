@@ -1,0 +1,43 @@
+/**
+ * Font size with clamp : https://clamp.font-size.app/
+ *
+ * To calculate the font-size has a specific size :
+ * - get the difference font-size screen size between the smallest and the largest value (ex. 16px at 600, 22px at 2200 -> 6px for 1600px)
+ * - calculate the difference between the smallest screen/font size and the desired screen/font size (ex. for 1920px -> 1320px of diff)
+ * - make a Rule of Three with the differences (ex. for 1920px : 6*1320/1600 = 4.95)
+ * - add the result to the min value : you got the result !! (16px + 4.95px = 20.95px, so you got 20.95px at 1920)
+ */
+
+html {
+  font-size: clamp(1rem, 0.8594rem + 0.375vw, 1.375rem); /* 16px at 600, 22px at 2200 */
+  --font-size: 16;
+}
+
+:root {
+  --text-9: calc(9rem / var(--font-size));
+  --text-12: calc(12rem / var(--font-size));
+  --text-14: calc(14rem / var(--font-size));
+  --text-16: calc(16rem / var(--font-size));
+  --text-base: calc(18rem / var(--font-size));
+  --text-22: calc(22rem / var(--font-size));
+  --text-24: calc(24rem / var(--font-size));
+  --text-28: calc(28rem / var(--font-size));
+  --text-34: calc(34rem / var(--font-size));
+  --text-38: calc(38rem / var(--font-size));
+  --text-40: calc(40rem / var(--font-size));
+  --text-45: calc(45rem / var(--font-size));
+  --text-48: calc(48rem / var(--font-size));
+  --text-52: calc(52rem / var(--font-size));
+  --text-58: calc(58rem / var(--font-size));
+  --text-62: calc(62rem / var(--font-size));
+  --text-64: calc(64rem / var(--font-size));
+  --text-72: calc(72rem / var(--font-size));
+  --text-82: calc(82rem / var(--font-size));
+  --text-102: calc(102rem / var(--font-size));
+  --text-110: calc(110rem / var(--font-size));
+  --text-120: calc(120rem / var(--font-size));
+  --text-135: calc(135rem / var(--font-size));
+  --text-168: calc(168rem / var(--font-size));
+  --text-210: calc(210rem / var(--font-size));
+  --text-270: calc(270rem / var(--font-size));}
+

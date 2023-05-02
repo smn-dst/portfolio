@@ -1,0 +1,36 @@
+.projects {
+  @apply px-20;
+
+  a {
+    @apply cursor-none;
+
+    &:hover {
+      &.projects__img {
+        @apply saturate-100 transition-all duration-300 ease-in;
+      }
+    }
+  }
+
+    .section {
+
+      &-left {
+        @apply h-[100vh] gap-40 rg:gap-0 sticky items-start flex flex-col py-16;
+      }
+
+      &-right {
+        @apply h-[100vh] gap-40 rg:gap-0 sticky items-end flex flex-col pt-16;
+      }
+
+      img {
+        @apply object-cover transform origin-left;
+      }
+
+      .reveal {
+        @apply opacity-0 overflow-hidden;
+      }
+    }
+
+  &__img {
+    @apply h-[65%] relative overflow-hidden saturate-0 transition-all duration-300 ease-in;
+  }
+}

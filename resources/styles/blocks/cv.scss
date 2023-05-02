@@ -1,0 +1,16 @@
+.cv {
+  .quote {
+    @apply overflow-hidden;
+  }
+
+  .split-parent {
+    @apply overflow-hidden;
+  }
+
+  &__cv {
+    &:hover {
+      @apply cursor-pointer;
+      cursor: 'url(http://localhost:3000/resources/images/📩.svg)35 35, auto';
+    }
+  }
+}

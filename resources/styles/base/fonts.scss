@@ -1,0 +1,26 @@
+:root {
+  --font-body: "Headlines";
+  --font-text: "helvetica";
+  --font-subText: "BebasNeue";
+}
+
+@font-face {
+  font-family: BebasNeue;
+  src: url('resources/fonts/BebasNeue-Regular.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url('resources/fonts/Helvetica-Bold.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: HeadLines;
+  src: url('resources/fonts/Headlines-Bold.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 700;
+}

@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import "variables/colors";
+@import 'variables/font-size';
+@import 'variables/sizes';
+@import "base/fonts";
+
+@import "partials/custom-cursor";
+
+@import "partials/home/home-cover";
+@import "blocks/projects";
+@import "blocks/contact";
+@import "blocks/cv";
+
+@import "partials/projects/projects";
+@import "blocks/presentation";
+
+@import "partials/mobile/mobile-cover";
+
+body {
+  @apply bg-body cursor-none;
+}

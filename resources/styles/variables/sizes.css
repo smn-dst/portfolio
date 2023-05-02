@@ -1,0 +1,52 @@
+:root {
+  --block-spacing: theme('spacing.8');
+  --container-width: 100%;
+  --container-padding: theme('spacing.4');
+  --row-margin: theme('spacing.4');
+  --header-height: 113px;
+  --header-padding: 1px;
+
+  @screen sm {
+    --block-spacing: theme('spacing.12');
+    --container-width: 100%;
+    --container-padding: theme('spacing.6');
+    --header-padding: 5rem;
+  }
+
+  @screen md {
+    --block-spacing: theme('spacing.16');
+    --container-width: 100%;
+    --container-padding: theme('spacing.8');
+    --header-padding: 1px;
+  }
+
+  @screen rg {
+    --block-spacing: theme('spacing.20');
+    --container-width: 100%;
+    --container-padding: theme('spacing.20');
+  }
+
+  @screen lg {
+    --block-spacing: theme('spacing.20');
+    --container-width: 100%;
+    --container-padding: theme('spacing.20');
+  }
+
+  @screen xl {
+    --block-spacing: theme('spacing.32');
+    --container-width: 100%;
+    --container-padding: 140px;
+  }
+
+  @screen 2xl {
+    --block-spacing: theme('spacing.32');
+    --container-width: 100%;
+    --container-padding: 200px;
+  }
+
+  @screen 3xl {
+    --block-spacing: theme('spacing.32');
+    --container-width: theme('screens.3xl');
+    --container-padding: 200px;
+  }
+}

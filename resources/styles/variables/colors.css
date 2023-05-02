@@ -1,0 +1,12 @@
+/* The format MUST be `r g b` (between 0 and 255) */
+
+:root {
+  --color-body: 244 233 222; /* #F4E9DE */
+  --color-second: 228 217 207; /* #E4D9CF */
+  --color-grey: 230 230 230; /* #E6E6E6 */
+  --color-accent: 0 7 64; /* #000740 */
+  --color-black: 0 0 0; /* #000000 */
+  --color-white: 255 255 255; /* #ffffff */
+  --color-green: 174 202 55; /* #AECA37 */
+  --color-red: 255 101 101; /* #ff6565 */
+}
