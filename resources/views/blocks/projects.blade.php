@@ -59,7 +59,7 @@
       </div>
     </section>
 
-    <section class="section section-right text-white bg-body">
+    <section class="section section-left text-white bg-body">
       <a href="{{ $butcherUrl }}" class="hoverable reveal w-full rg:w-[40%] projects__img js-img-parallax">
         <img src="{{ $butcherImg['url'] }}" alt="image of project">
       </a>
@@ -73,7 +73,7 @@
       </div>
     </section>
 
-    <section class="section section-left text-white bg-body">
+    <section class="section section-right text-white bg-body">
       @if($iziUrl)
         <a href="{{ $iziUrl }}" class="hoverable reveal w-full rg:w-[40%] projects__img js-img-parallax">
           @if($iziImg)
@@ -91,7 +91,7 @@
         </div>
     </section>
 
-    <section class="section section-right section-end text-white bg-body">
+    <section class="section section-left section-end text-white bg-body">
       <a href="{{ $artUrl }}" class="hoverable reveal w-full rg:w-[40%] projects__img js-img-parallax">
         <img src="{{ $artImg['url'] }}" alt="image of project">
       </a>
@@ -105,7 +105,7 @@
       </div>
     </section>
 
-    <section class="section section-left text-white bg-body">
+    <section class="section section-right text-white bg-body">
       <a href="{{ $fieldsoffateUrl }}" class="hoverable reveal w-full rg:w-[40%] projects__img js-img-parallax">
         <img src="{{ $fieldsoffateImg['url'] }}" alt="image of project">
       </a>
@@ -119,7 +119,7 @@
       </div>
     </section>
 
-    <section class="section section-right section-end text-white bg-body">
+    <section class="section section-left section-end text-white bg-body">
       <a href="{{ $veuveambalUrl }}" class="hoverable reveal w-full rg:w-[40%] projects__img js-img-parallax">
         <img src="{{ $veuveambalImg['url'] }}" alt="image of project">
       </a>
@@ -133,7 +133,7 @@
       </div>
     </section>
 
-    <section class="section section-left section-end text-white bg-body">
+    <section class="section section-right section-end text-white bg-body">
       <a href="{{ $torikarasanUrl }}" class="hoverable reveal w-full rg:w-[40%] projects__img js-img-parallax">
         <img src="{{ $torikarasanImg['url'] }}" alt="image of project">
       </a>

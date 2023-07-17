@@ -39,5 +39,6 @@ html {
   --text-135: calc(135rem / var(--font-size));
   --text-168: calc(168rem / var(--font-size));
   --text-210: calc(210rem / var(--font-size));
+  --text-240: calc(240rem / var(--font-size));
   --text-270: calc(270rem / var(--font-size));}
 
