@@ -7,7 +7,7 @@
       <div class="flex items-center mt-48 justify-center">
         <div class="flex projects-cover__container">
           <img class="projects-cover__img" src="{{ get_the_post_thumbnail_url() }}" alt="image of project">
-          <h1 class="rg:text-240 relative projects-cover__title text-135 gap-28 text-center flex rg:flex-row flex-col font-body text-black js-project-title">
+          <h1 class="rg:text-270 relative projects-cover__title text-135 gap-28 text-center flex rg:flex-row flex-col font-body text-black js-project-title">
             <span class="js-project-split-title">{{ $titleOne }}</span>
             <span class="js-project-split-title">{{ $titleTwo }}</span>
             <span class="js-project-split-title">{{ $titleThree }}</span>

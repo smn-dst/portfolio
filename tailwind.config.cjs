@@ -68,7 +68,7 @@ module.exports = {
       135: ['var(--text-135)', 'calc(var(--text-135) * 1.125)'],
       168: ['var(--text-168)', 'calc(var(--text-168) * 1.125)'],
       210: ['var(--text-210)', 'calc(var(--text-210) * 1.125)'],
-      240: ['var(--text-240)', 'calc(var(--text-240) * 1.125)'],
+      250: ['var(--text-250)', 'calc(var(--text-250) * 1.125)'],
       270: ['var(--text-270)', 'calc(var(--text-270) * 1.125)'],
     },
     fontFamily: {
